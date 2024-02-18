@@ -1,0 +1,198 @@
+.r-sidebar {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-left: 18px;
+  padding-right: 15px;
+  border-color: #2f3336;
+  border-left-style: solid;
+  border-width: 1px;
+  max-width: 348px;
+}
+.header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  height: 54px;
+  justify-content: left;
+  background-color: black;
+  z-index: 106;
+}
+.header input {
+  width: 100%;
+  margin: 8px 0 6px;
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+  border: none;
+  background-color: #202327;
+  color: white;
+  padding-left: 50px;
+  padding-right: 10px;
+  outline: none;
+}
+.header input:focus {
+  border: 1px solid #1c7abc;
+}
+.header i {
+  position: absolute;
+  left: 22px;
+  top: 19px;
+  width: 24px;
+}
+.right-section {
+  align-items: end;
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.premium {
+  background-color: #16181c;
+  margin-top: 16px;
+  padding: 0 18px 16px;
+  border-radius: 16px;
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 16px;
+}
+.subscribe-text {
+  font-size: 20px;
+}
+.premium button {
+  background-color: #6da5ca;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 8px 16px;
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+.trends {
+  background-color: #16181c;
+  padding: 0 16px 0 16px;
+  border-radius: 16px;
+}
+.trends-for-you {
+  font-weight: 600;
+  font-size: 21px;
+}
+.trend-link {
+  font-size: 12px;
+  color: #71767b;
+  margin: 7px 0 4px 0;
+}
+.trend-name {
+  margin: 0;
+  font-weight: 600;
+  font-size: 15px;
+}
+.trend-box {
+  padding: 10px 0 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+.trend-box:hover {
+  cursor: pointer;
+  background-color: #1d1f23;
+}
+.trend-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.trend-container i {
+  width: 24px;
+  height: 24px;
+}
+.trend-show-more-box {
+  color: #1c7abc;
+  width: 100%;
+  margin-top: -20px;
+}
+.trend-show-more-link {
+  padding-top: 20px;
+  font-size: 17px;
+}
+.trend-show-more-box:hover {
+  cursor: pointer;
+  background-color: #1d1f23;
+}
+.who-to-follow {
+  background-color: #16181c;
+  padding: 0 16px 0 16px;
+  border-radius: 16px;
+  margin-top: 16px;
+}
+.who-to-follow-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 16px;
+}
+.who-to-follow-profile-picture {
+  width: 40px;
+  border-radius: 100%;
+}
+.who-to-follow-account-info {
+  font-size: 16px;
+  font-weight: bold;
+}
+.who-to-follow-account-info p {
+  margin: 0;
+}
+.who-to-follow-account-tag {
+  font-size: 14px;
+  font-weight: 400;
+  color: #5b5f64;
+}
+.who-to-follow-link button {
+  height: 32px;
+  width: 77px;
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+  border: none;
+  font-weight: 600;
+  font-family: arial;
+  font-size: 13px;
+  margin-left: 20px;
+}
+.who-to-follow-title {
+  font-weight: 600;
+  font-size: 21px;
+}
+.terms-of-service {
+  display: flex;
+  font-size: 12px;
+  color: #5b5f64;
+  margin: 12px;
+  flex-direction: column;
+  width: 230px;
+}
+.terms-of-service p {
+  margin: 0 0 4px 0;
+}
+.terms-of-service-first-line {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.terms-of-service-second-line {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.terms-of-service-third-line {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+}

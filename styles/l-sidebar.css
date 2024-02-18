@@ -1,0 +1,50 @@
+.l-sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  position: relative;
+  z-index: 101;
+  width: 98px;
+  padding-right: 7px;
+}
+.l-sidebar-container {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0 8px 0 8px;
+  justify-content: space-between;
+  height: 100vh;
+}
+.l-sidebar-link div {
+  display: fixed;
+  width: 50.25px;
+}
+.l-sidebar-profile-picture {
+  width: 50.25px;
+  border-radius: 100%;
+}
+.l-sidebar button {
+  width: 50.25px;
+  height: 50.25px;
+  border-radius: 100%;
+  border: none;
+  color: white;
+  background-color: #6da5ca;
+  font-weight: 600;
+  margin-top: 18px;
+}
+.l-sidebar-container-box img {
+  width: 48px;
+  height: 48px;
+  margin-top: 8px;
+}
+.l-sidebar-container-box i {
+  margin-top: 18px;
+}
+.l-sidebar-container-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 26px;
+}
